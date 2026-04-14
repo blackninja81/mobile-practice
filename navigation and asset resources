@@ -1,0 +1,59 @@
+ app/(tabs)/_layout.tsx                     |  62 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ app/(tabs)/index.tsx                       |   9 [32m++++++[m[31m---[m
+ app/(tabs)/insights.tsx                    |   9 [32m++++++[m[31m---[m
+ app/(tabs)/settings.tsx                    |  10 [32m+++++++[m[31m---[m
+ app/(tabs)/subscriptions.tsx               |  10 [32m+++++++[m[31m---[m
+ app/{(tabs) => }/subscriptions/[id].tsx    |   0
+ assets/expo.icon/Assets/expo-symbol 2.svg  |   3 [32m+++[m
+ assets/expo.icon/Assets/grid.png           | Bin [31m0[m -> [32m53681[m bytes
+ assets/expo.icon/icon.json                 |  40 [32m++++++++++++++++++++++++++++++++++++++++[m
+ assets/fonts/PlusJakartaSans-Bold.ttf      | Bin [31m0[m -> [32m94772[m bytes
+ assets/fonts/PlusJakartaSans-ExtraBold.ttf | Bin [31m0[m -> [32m94780[m bytes
+ assets/fonts/PlusJakartaSans-Light.ttf     | Bin [31m0[m -> [32m94788[m bytes
+ assets/fonts/PlusJakartaSans-Medium.ttf    | Bin [31m0[m -> [32m94808[m bytes
+ assets/fonts/PlusJakartaSans-Regular.ttf   | Bin [31m0[m -> [32m94756[m bytes
+ assets/fonts/PlusJakartaSans-SemiBold.ttf  | Bin [31m0[m -> [32m94836[m bytes
+ assets/icons/activity.png                  | Bin [31m0[m -> [32m1992[m bytes
+ assets/icons/add.png                       | Bin [31m0[m -> [32m559[m bytes
+ assets/icons/adobe.png                     | Bin [31m0[m -> [32m3470[m bytes
+ assets/icons/back.png                      | Bin [31m0[m -> [32m708[m bytes
+ assets/icons/canva.png                     | Bin [31m0[m -> [32m5266[m bytes
+ assets/icons/claude.png                    | Bin [31m0[m -> [32m5427[m bytes
+ assets/icons/dropbox.png                   | Bin [31m0[m -> [32m3847[m bytes
+ assets/icons/figma.png                     | Bin [31m0[m -> [32m3384[m bytes
+ assets/icons/github.png                    | Bin [31m0[m -> [32m3889[m bytes
+ assets/icons/home.png                      | Bin [31m0[m -> [32m1625[m bytes
+ assets/icons/logo.png                      | Bin [31m0[m -> [32m3471[m bytes
+ assets/icons/medium.png                    | Bin [31m0[m -> [32m1839[m bytes
+ assets/icons/menu.png                      | Bin [31m0[m -> [32m560[m bytes
+ assets/icons/netflix.png                   | Bin [31m0[m -> [32m1170[m bytes
+ assets/icons/notion.png                    | Bin [31m0[m -> [32m3508[m bytes
+ assets/icons/openai.png                    | Bin [31m0[m -> [32m3520[m bytes
+ assets/icons/plus.png                      | Bin [31m0[m -> [32m559[m bytes
+ assets/icons/setting.png                   | Bin [31m0[m -> [32m2359[m bytes
+ assets/icons/spotify.png                   | Bin [31m0[m -> [32m4159[m bytes
+ assets/icons/wallet.png                    | Bin [31m0[m -> [32m2133[m bytes
+ assets/images/avatar.png                   | Bin [31m0[m -> [32m126580[m bytes
+ assets/images/expo-badge-white.png         | Bin [31m0[m -> [32m4129[m bytes
+ assets/images/expo-badge.png               | Bin [31m0[m -> [32m4137[m bytes
+ assets/images/expo-logo.png                | Bin [31m0[m -> [32m3317[m bytes
+ assets/images/icon.png                     | Bin [31m393493[m -> [32m799005[m bytes
+ assets/images/logo-glow.png                | Bin [31m0[m -> [32m331624[m bytes
+ assets/images/partial-react-logo.png       | Bin [31m5075[m -> [32m0[m bytes
+ assets/images/splash-icon.png              | Bin [31m17547[m -> [32m3317[m bytes
+ assets/images/splash-pattern.png           | Bin [31m0[m -> [32m50908[m bytes
+ assets/images/tabIcons/explore.png         | Bin [31m0[m -> [32m215[m bytes
+ assets/images/tabIcons/explore@2x.png      | Bin [31m0[m -> [32m347[m bytes
+ assets/images/tabIcons/explore@3x.png      | Bin [31m0[m -> [32m468[m bytes
+ assets/images/tabIcons/home.png            | Bin [31m0[m -> [32m253[m bytes
+ assets/images/tabIcons/home@2x.png         | Bin [31m0[m -> [32m343[m bytes
+ assets/images/tabIcons/home@3x.png         | Bin [31m0[m -> [32m479[m bytes
+ assets/images/tutorial-web.png             | Bin [31m0[m -> [32m58959[m bytes
+ constants/data.ts                          | 107 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ constants/icons.ts                         |  41 [32m+++++++++++++++++++++++++++++++++++++++++[m
+ constants/theme.ts                         |  51 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ image.d.ts                                 |  20 [32m++++++++++++++++++++[m
+ package-lock.json                          |  10 [32m++++++++++[m
+ package.json                               |   1 [32m+[m
+ type.d.ts                                  |  58 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 58 files changed, 419 insertions(+), 12 deletions(-)
